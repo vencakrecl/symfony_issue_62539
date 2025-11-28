@@ -1,0 +1,4 @@
+parameters:
+    debug.error_handler.throw_at: 32767
+    debug.container.dump: false
+    .container.dumper.inline_factories: true
