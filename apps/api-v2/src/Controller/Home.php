@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller;
+namespace ApiV2\Controller;
 
 use App\Services\ConnectorLocator;
 use Symfony\Component\HttpFoundation\Response;
@@ -14,6 +14,6 @@ class Home
     }
 
     public function __invoke(): Response {
-        return new Response('Hello World!');
+        return new Response('Hello World V2!');
     }
 }
